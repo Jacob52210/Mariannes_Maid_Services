@@ -11,6 +11,7 @@ $pink:hotpink;
 //------Index Page------//
 body {
     background-color: $pink;
+    margin: 0px;
 }
 
 .header-container {
@@ -21,12 +22,20 @@ body {
 
 .logo {
     height: auto;
-    width: 300px;
+    
     @include mobile();
+    margin: 0px;
+    background-repeat: no-repeat;
+}
+
+img {
+    width: 420px;
+    height: auto;
 }
 
 .nav-bar {
-    @include mobile
+    @include mobile();
+    margin:0px;
 }
 
 a {
@@ -39,26 +48,31 @@ ul {
     list-style: none;
     font-size: 20px;
     padding: 0px;
-    
-    
-    
+    margin: 0px;
 }
 
 ul li {
     text-align: center;
     background-color: black;
     width: 100vh;
-    
+    margin: 0px;
 }
 
 ul li a {
     color: $pink;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 ul li a:hover {
     color: black;
+    font-size: 35px;
+    transition: .5s;
+    font-weight: bolder;
 }
 
 ul li:hover {
-    background-color: lightpink;
+    background-color: skyblue;
 }
+
+//------Media Queries------//

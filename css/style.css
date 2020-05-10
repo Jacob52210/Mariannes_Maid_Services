@@ -1,5 +1,6 @@
 body {
   background-color: hotpink;
+  margin: 0px;
 }
 
 .header-container {
@@ -22,7 +23,6 @@ body {
 
 .logo {
   height: auto;
-  width: 300px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -36,6 +36,13 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin: 0px;
+  background-repeat: no-repeat;
+}
+
+img {
+  width: 420px;
+  height: auto;
 }
 
 .nav-bar {
@@ -52,6 +59,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin: 0px;
 }
 
 a {
@@ -64,23 +72,31 @@ ul {
   list-style: none;
   font-size: 20px;
   padding: 0px;
+  margin: 0px;
 }
 
 ul li {
   text-align: center;
   background-color: black;
   width: 100vh;
+  margin: 0px;
 }
 
 ul li a {
   color: hotpink;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 ul li a:hover {
   color: black;
+  font-size: 35px;
+  -webkit-transition: .5s;
+  transition: .5s;
+  font-weight: bolder;
 }
 
 ul li:hover {
-  background-color: lightpink;
+  background-color: skyblue;
 }
 /*# sourceMappingURL=style.css.map */
