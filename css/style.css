@@ -1,0 +1,17 @@
+body {
+    background-color: hotpink;
+}
+h1 {
+    text-align: center;
+    color: hotpink;
+    background-color: black;
+    padding: 20px;
+    margin: 20px;
+    font-size: 6rem;
+}
+p {
+    text-align: center;
+    color:black;
+    font-size: large;
+    
+}
