@@ -33,16 +33,28 @@ img {
 .top-container {
   padding: 5px;
   text-align: center;
-  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+      -ms-flex-direction: row;
+          flex-direction: row;
   background-color: white;
   border-bottom: 2px solid skyblue;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 1;
+}
+
+.site-name {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 h2 {
@@ -61,10 +73,17 @@ article {
 
 nav {
   color: #ff02ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: none;
 }
 
 ul {
@@ -82,7 +101,7 @@ ul {
       -ms-flex-direction: column;
           flex-direction: column;
   margin: 0px;
-  padding-right: 40px;
+  padding: 0px;
   list-style: none;
 }
 

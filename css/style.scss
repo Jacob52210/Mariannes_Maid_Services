@@ -33,17 +33,21 @@ img {
     width: auto;
 }
 
-
-
 .top-container {
     padding: 5px;
     text-align: center;
-    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
     background-color:white;
     border-bottom: 2px solid skyblue;
     position: sticky;
     top: 0;
     z-index: 1;
+}
+
+.site-name {
+    flex-direction: row;
 }
 
 h2 {
@@ -66,14 +70,17 @@ article {
     //---Nav Bar---//
 nav {
     color: $brightPurple;
+    display: flex;
     flex-direction: row;
+    justify-content: center;
+    padding: none;
 }
 
 ul {
     @include flexCenter();
     flex-direction: column;
     margin: 0px;
-    padding-right: 40px;
+    padding: 0px;
     list-style: none;
 }
 
