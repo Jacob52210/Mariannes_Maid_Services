@@ -1,17 +1,86 @@
 body {
-    background-color: hotpink;
+  background-color: hotpink;
 }
-h1 {
-    text-align: center;
-    color: hotpink;
-    background-color: black;
-    padding: 20px;
-    margin: 20px;
-    font-size: 6rem;
+
+.header-container {
+  height: auto;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
-p {
-    text-align: center;
-    color:black;
-    font-size: large;
-    
+
+.logo {
+  height: auto;
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
+
+.nav-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+ul {
+  display: column;
+  list-style: none;
+  font-size: 20px;
+  padding: 0px;
+}
+
+ul li {
+  text-align: center;
+  background-color: black;
+  width: 100vh;
+}
+
+ul li a {
+  color: hotpink;
+}
+
+ul li a:hover {
+  color: black;
+}
+
+ul li:hover {
+  background-color: lightpink;
+}
+/*# sourceMappingURL=style.css.map */

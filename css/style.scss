@@ -1,0 +1,64 @@
+//------Variables------//
+$pink:hotpink;
+
+@mixin mobile {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+//------Index Page------//
+body {
+    background-color: $pink;
+}
+
+.header-container {
+    height: auto;
+    width: 100%;
+    @include mobile();
+}
+
+.logo {
+    height: auto;
+    width: 300px;
+    @include mobile();
+}
+
+.nav-bar {
+    @include mobile
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+ul {
+    display: column;
+    list-style: none;
+    font-size: 20px;
+    padding: 0px;
+    
+    
+    
+}
+
+ul li {
+    text-align: center;
+    background-color: black;
+    width: 100vh;
+    
+}
+
+ul li a {
+    color: $pink;
+}
+
+ul li a:hover {
+    color: black;
+}
+
+ul li:hover {
+    background-color: lightpink;
+}
