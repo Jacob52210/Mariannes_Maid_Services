@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Black+Ops+One|Fugaz+One|Rock+Salt&display=swap);
 body {
-  background-color: hotpink;
+  background-color: #a0e4ff;
 }
 
 a {
@@ -43,7 +43,8 @@ img {
       -ms-flex-direction: row;
           flex-direction: row;
   background-color: white;
-  border-bottom: 2px solid skyblue;
+  -webkit-box-shadow: 0px 0px 20px black;
+          box-shadow: 0px 0px 20px black;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -72,7 +73,7 @@ article {
 }
 
 nav {
-  color: #ff02ff;
+  color: #0747d1;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -115,7 +116,7 @@ ul li a {
 }
 
 ul li a:hover {
-  color: #ff02ff;
+  color: #0747d1;
 }
 
 h1 {
@@ -176,7 +177,7 @@ h1 {
 }
 
 i:hover {
-  color: #ff02ff;
+  color: #0747d1;
 }
 
 .search-box input[type="text"] {
@@ -196,7 +197,7 @@ i:hover {
 }
 
 .search-box input[type="text"]:hover {
-  border: 2px solid #ff02ff;
+  border: 2px solid #0747d1;
 }
 
 ::-webkit-input-placeholder {
