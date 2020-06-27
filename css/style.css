@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Black+Ops+One|Fugaz+One|Rock+Salt&display=swap);
+@import url("https://fonts.googleapis.com/css?family=Black + Ops + One|Fugaz + One|Rock + Salt&display=swap");
 body {
   background-color: #a0e4ff;
 }
@@ -23,6 +23,15 @@ a {
       -ms-flex-align: center;
           align-items: center;
   overflow: hidden;
+}
+
+.contact_list {
+  padding: 1rem;
+  text-align: center;
+}
+
+.contact_list .contact_item {
+  padding-bottom: 1rem;
 }
 
 img {
@@ -61,7 +70,6 @@ img {
 h2 {
   color: black;
   font-size: 35px;
-  font-family: "Rock Salt";
   margin: 0px;
   padding-top: 20px;
 }
@@ -180,7 +188,7 @@ i:hover {
   color: #0747d1;
 }
 
-.search-box input[type="text"] {
+.search-box input[type='text'] {
   width: 100%;
   padding: 10px;
   margin-top: 10px;
@@ -196,7 +204,7 @@ i:hover {
   top: 20%;
 }
 
-.search-box input[type="text"]:hover {
+.search-box input[type='text']:hover {
   border: 2px solid #0747d1;
 }
 
@@ -227,7 +235,7 @@ i:hover {
   ul li a {
     font-size: 25px;
   }
-  .search-box input[type="text"] {
+  .search-box input[type='text'] {
     padding: 20px;
     font-size: 18px;
   }
