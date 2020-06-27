@@ -34,6 +34,10 @@ a {
   padding-bottom: 1rem;
 }
 
+.contact_list pre {
+  margin: 0;
+}
+
 img {
   height: 100px;
   width: auto;
@@ -75,9 +79,10 @@ h2 {
 }
 
 article {
-  font-size: 1em;
+  font-size: 20px;
   color: black;
   text-align: center;
+  padding: 15px;
 }
 
 nav {
