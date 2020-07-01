@@ -8,8 +8,6 @@ $seeThru: rgba(0, 0, 0, 0.3);
 	align-items: center;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Black + Ops + One|Fugaz + One|Rock + Salt&display=swap');
-
 body {
 	background-color: rgb(160, 228, 255);
 }
@@ -82,6 +80,13 @@ article {
 //------------------------------------------------------------------------------------------------------------------------------------------------//
 
 //---Nav Bar---//
+
+#gallery {
+	padding-top: 2rem;
+	position: relative;
+	top: 30%;
+}
+
 nav {
 	color: $brightPurple;
 	display: flex;
@@ -179,6 +184,29 @@ i:hover {
 	right: 25px;
 	color: purple;
 	font-size: 25px;
+}
+
+section#carousel > figure > img {
+	display: none;
+	margin: 0px auto;
+}
+section#carousel > figure.visible > img {
+	display: block;
+	position: relative;
+	overflow: hidden;
+	width: 200px;
+	height: auto;
+	padding-bottom: 1rem;
+}
+section#carousel > figure > figcaption {
+	display: none;
+}
+section#carousel > figure.visible > figcaption {
+	display: block;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1rem;
+	color: blue;
 }
 
 //------Media Queries------//
