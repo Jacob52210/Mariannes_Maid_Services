@@ -209,6 +209,20 @@ section#carousel > figure.visible > figcaption {
 	color: blue;
 }
 
+footer {
+	text-align: center;
+	padding-bottom: 1rem;
+	font-size: 1rem;
+
+	a {
+		color: rgb(255, 255, 255);
+		text-decoration: none;
+
+		:hover {
+			color: blue;
+		}
+	}
+}
 //------Media Queries------//
 @media screen and (min-width: 320px) {
 	//---Landing Page---//

@@ -258,6 +258,21 @@ section#carousel > figure.visible > figcaption {
   color: blue;
 }
 
+footer {
+  text-align: center;
+  padding-bottom: 1rem;
+  font-size: 1rem;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a :hover {
+  color: blue;
+}
+
 @media screen and (min-width: 320px) {
   .enter a {
     font-size: 5rem;
